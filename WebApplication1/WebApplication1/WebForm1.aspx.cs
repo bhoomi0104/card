@@ -15,13 +15,7 @@ namespace WebApplication1
             if (!this.IsPostBack)
             {
                 //set the Background color list
-                Bc_list.Items.Add("White");
-                Bc_list.Items.Add("Red");
-                Bc_list.Items.Add("Green");
-                Bc_list.Items.Add("Blue");
-                Bc_list.Items.Add("Yellow");
-
-                //set font options
+                //ont options
 
                 Font_list.Items.Add("Times New Roman");
                 Font_list.Items.Add("Arial");
@@ -58,7 +52,7 @@ namespace WebApplication1
         }
         protected void Update_Click(Object sender, EventArgs e)
         {
-            pnlCard.BackColor = Color.FromName(Bc_list.SelectedItem.Text);
+           // pnlCard.BackColor = Color.FromName(Bc_list.SelectedItem.Text);
             lblGreeting.Font.Name = Font_list.SelectedItem.Text;
             if (Int32.Parse(Font_size.Text) > 0)
             {

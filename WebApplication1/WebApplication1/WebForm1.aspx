@@ -9,10 +9,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
-     Choose Background Color:<br />
-            <asp:DropDownList ID="Bc_list" runat="server">
-            </asp:DropDownList>
-            <br />
+<br />
             Choose a Font:<br />
             <asp:DropDownList ID="Font_list" runat="server">
             </asp:DropDownList>
